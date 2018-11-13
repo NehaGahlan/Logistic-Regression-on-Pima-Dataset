@@ -12,6 +12,32 @@ The Pima Indian diabetes dataset was performed on 768 female patients of at leas
 - Age: Age (years)
 - Outcome: Class variable (0 or 1)
 
+### Import Classes and Functions
+```python
+#Importing libraries
+import numpy as np
+import pandas as pd
+import seaborn as sns
+from sklearn import preprocessing
+from sklearn.model_selection import cross_val_score
+from sklearn.model_selection import KFold
+from sklearn.linear_model import LogisticRegression
+from sklearn.model_selection import cross_val_predict
+from sklearn.metrics import confusion_matrix
+from sklearn.metrics import classification_report
+from sklearn import svm
+import warnings
+warnings.filterwarnings("ignore", category=FutureWarning)
+from sklearn.feature_selection import RFECV
+import matplotlib.pyplot as plt 
+plt.rc("font", size=14)
+sns.set(style="white") 
+sns.set(style="whitegrid", color_codes=True)
+
+```
+
+
+
 ### Markdown
 
 Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
