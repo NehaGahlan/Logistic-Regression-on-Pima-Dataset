@@ -1,8 +1,16 @@
-## Welcome to GitHub Pages
+## About the dataset
 
-You can use the [editor on GitHub](https://github.com/ivyclare/Logistic-Regression-on-Pima-Dataset/edit/master/README.md) to maintain and preview the content for your website in Markdown files.
+The Pima Indian diabetes dataset was performed on 768 female patients of at least 21years old. These females were all of the Pima Indian heritage. 268 of these women tested positive while 500 tested negative. In the dataset, each instance has 8 attributes and the are all numeric. The attributes include:
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
+- Pregnancies: Number of times pregnant
+- Glucose: Plasma glucose concentration a 2 hours in an oral glucose tolerance test
+- BloodPressure: Diastolic blood pressure (mm Hg)
+- SkinThickness: Triceps skin fold thickness (mm)
+- Insulin: 2-Hour serum insulin (mu U/ml)
+- BMI: Body mass index (weight in kg/(height in m)^2)
+- DiabetesPedigreeFunction: Diabetes pedigree function
+- Age: Age (years)
+- Outcome: Class variable (0 or 1)
 
 ### Markdown
 
