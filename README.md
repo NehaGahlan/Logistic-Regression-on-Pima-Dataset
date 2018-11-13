@@ -35,11 +35,6 @@ sns.set(style="white")
 sns.set(style="whitegrid", color_codes=True)
 
 ```
-
-```python
-
-```
-
 ### Load and Describe Dataset
 ```python
 #loading the dataset
@@ -122,7 +117,7 @@ plt.show()
 plt.savefig('count_plot')
 ```
  <p float="left">
-  <img src="Screenshots/four.png" width="625" />
+  <img src="Screenshots/four.png" width="525" />
 </p>
 
 ### Over-sampling using SMOTE
@@ -226,7 +221,7 @@ fig.set_size_inches(10, 8)
 plt.show()
 ```
 <p float="left">
-  <img src="Screenshots/six.png" width="625" />
+  <img src="Screenshots/six.png" width="525" />
 </p>
 
 ```python
@@ -238,7 +233,7 @@ plt.plot(range(1, len(rfecv.grid_scores_) + 1), rfecv.grid_scores_)
 plt.show()
 ```
 <p float="left">
-  <img src="Screenshots/seven.png" width="625" />
+  <img src="Screenshots/seven.png" width="525" />
 </p>
 Four features have been selected and we get the correlation matrix below
 
@@ -301,7 +296,7 @@ sns.heatmap(
 )
 ```
 <p float="left">
-  <img src="Screenshots/nine.png" width="625" />
+  <img src="Screenshots/nine.png" width="425" />
 </p>
 
 
